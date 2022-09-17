@@ -1,0 +1,39 @@
+@import './components/navbar.scss';
+@import './components/footer.scss';
+
+@import './index.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #faf8f6;
+}
+
+h2 {
+  color: #0f111a;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+p {
+  color: #0f111a;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+@media (min-width: 1300px) {
+  .center {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .center {
+    margin: 0 2rem;
+  }
+}
