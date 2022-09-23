@@ -4,7 +4,7 @@ import Footer from '../components/global/footer';
 export default function TermsOfUses() {
   return (
     <div className='main-cont'>
-      <div className='center'>
+      <div className='content'>
         <Navbar />
         <p>
           Jeremy Carmona welcomes you to his Web site. Using this Web site
@@ -41,8 +41,8 @@ export default function TermsOfUses() {
           User Agreement, do not use this Web site.
         </p>
         <p>Jeremy Carmona + Digital Design and Development BCIT </p>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

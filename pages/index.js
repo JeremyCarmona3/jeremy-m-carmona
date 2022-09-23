@@ -9,7 +9,7 @@ import Footer from '../components/global/footer';
 export default function Home() {
   return (
     <div className='main-cont'>
-      <div className='center'>
+      <div className='content'>
         <Navbar />
         <div className='row'>
           <div className='col'>
@@ -100,8 +100,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

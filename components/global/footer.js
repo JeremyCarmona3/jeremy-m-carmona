@@ -6,9 +6,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer({}) {
   return (
-    <div>
+    <div className='footer-cont'>
       <hr className='line' />
-      <div className='footer-cont'>
+      <div className='footer-links-cont'>
         <div className='footer-links'>
           <p>Copyright © 2022 Jeremy Carmona. All rights reserved.</p>
           <Link href='/about'>

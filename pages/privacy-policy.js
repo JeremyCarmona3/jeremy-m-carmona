@@ -4,7 +4,7 @@ import Footer from '../components/global/footer';
 export default function PrivacyPolicy() {
   return (
     <div className='main-cont'>
-      <div className='center'>
+      <div className='content'>
         <Navbar />
         <p>
           This policy applies to Jeremy Carmona{"'"}s Web site only. It is
@@ -56,8 +56,8 @@ export default function PrivacyPolicy() {
         </p>
         <p>Jeremy Carmona + Digital Design and Development BCIT </p>
         <p></p>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

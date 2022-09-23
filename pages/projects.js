@@ -4,10 +4,10 @@ import Footer from '../components/global/footer';
 export default function Projects() {
   return (
     <div className='main-cont'>
-      <div className='center'>
+      <div className='content'>
         <Navbar />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
