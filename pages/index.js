@@ -5,6 +5,7 @@ import Avatar from '../public/avatar.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
+import Polaroid from '../components/global/polaroid';
 
 export default function Home() {
   return (
@@ -49,13 +50,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div>
-                <div className='polaroid'>
-                  <div className='image'>
-                    <Image src={Avatar} alt='Avatar of Jeremy' />
-                  </div>
-                  <h2>Front-end Developer</h2>
-                </div>
+              <div className='polaroid-cont'>
+                <Polaroid
+                  image={Avatar}
+                  alt='Avatar of Jeremy'
+                  caption='Front-end Developer'
+                />
               </div>
             </div>
           </div>
