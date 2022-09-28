@@ -1,0 +1,19 @@
+.navbar-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #0f111a;
+  font-family: Helvetica Neue, sans-serif;
+  text-decoration: none;
+  padding-left: 30px;
+}
