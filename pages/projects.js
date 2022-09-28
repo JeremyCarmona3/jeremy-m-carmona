@@ -7,6 +7,7 @@ export default function Projects() {
     <div className='main-cont'>
       <div className='content'>
         <Navbar />
+        <h1>Projects</h1>
         <div className='projects'>
           <Polaroid />
           <div>

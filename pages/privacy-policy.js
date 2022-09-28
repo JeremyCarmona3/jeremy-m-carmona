@@ -6,6 +6,7 @@ export default function PrivacyPolicy() {
     <div className='main-cont'>
       <div className='content'>
         <Navbar />
+        <h1>Privacy Policy</h1>
         <p>
           This policy applies to Jeremy Carmona{"'"}s Web site only. It is
           designed to inform you of how and why Jeremy Carmona gathers personal

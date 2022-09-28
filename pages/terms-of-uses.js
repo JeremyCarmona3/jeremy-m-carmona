@@ -6,6 +6,7 @@ export default function TermsOfUses() {
     <div className='main-cont'>
       <div className='content'>
         <Navbar />
+        <h1>Terms of Uses</h1>
         <p>
           Jeremy Carmona welcomes you to his Web site. Using this Web site
           indicates your consent and agreement to be bound by this User

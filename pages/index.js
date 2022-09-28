@@ -14,8 +14,8 @@ export default function Home() {
         <Navbar />
         <div className='row grid-two'>
           <div className='col'>
-            <h2>Jeremy Carmona</h2>
-            <p className='intro-text'>
+            <h1>Jeremy Carmona</h1>
+            <p>
               I am a recent graduate of the Digital Design and Development
               program at the British Columbia Institute of Technology. During my
               2 years at BCIT, I learned many things ranging from designing to
