@@ -28,11 +28,11 @@ export default function Home() {
         />
         <link rel='icon' href='/JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <div className='row grid-two'>
           <div className='col'>
-            <h1>Jeremy Carmona</h1>
+            <h1>Jeremy Carmona{"'"}s Portfolio</h1>
             <p>
               I am a recent graduate of the Digital Design and Development
               program at the British Columbia Institute of Technology. During my

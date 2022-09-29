@@ -24,8 +24,8 @@ export default function PrivacyPolicy() {
         />
         <link rel='icon' href='JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <h1>Privacy Policy</h1>
         <p>
           This policy applies to Jeremy Carmona{"'"}s Web site only. It is

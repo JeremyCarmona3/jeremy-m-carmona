@@ -24,8 +24,8 @@ export default function TermsOfUses() {
         />
         <link rel='icon' href='JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <h1>Terms of Uses</h1>
         <p>
           Jeremy Carmona welcomes you to his Web site. Using this Web site

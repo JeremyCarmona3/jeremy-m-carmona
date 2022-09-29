@@ -27,8 +27,8 @@ export default function About() {
         />
         <link rel='icon' href='JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <h1>About Me</h1>
         <div>
           <div className='about-me-row'>

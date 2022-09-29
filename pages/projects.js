@@ -28,8 +28,8 @@ export default function Projects() {
         />
         <link rel='icon' href='JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <h1>Projects</h1>
         <div className='projects'>
           <Polaroid
