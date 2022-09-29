@@ -69,19 +69,30 @@ export default function Home() {
           <div className='col'>
             <h2>Libraries & Frameworks</h2>
             <div>
-              <p>JavaScript (ES6+)</p>
-              <p>HTML</p>
-              <p>SASS/CSS</p>
-              <p>TypeScript</p>
+              <p>React</p>
+              <p>Next.js</p>
+              <p>Styled-components</p>
+              <p>Storybook.js</p>
+              <p>React Native</p>
+              <p>Expo</p>
+              <p>jQuery</p>
+              <p>MongoDB</p>
+              <p>Mongoose</p>
+              <p>Redux</p>
+              <p>Electron</p>
             </div>
           </div>
           <div className='col'>
             <h2>Tools & Platforms</h2>
             <div>
-              <p>JavaScript (ES6+)</p>
-              <p>HTML</p>
-              <p>SASS/CSS</p>
-              <p>TypeScript</p>
+              <p>Vercel</p>
+              <p>Node.js</p>
+              <p>Git</p>
+              <p>Github</p>
+              <p>Bitbucket</p>
+              <p>Firebase</p>
+              <p>Heroku</p>
+              <p>WordPress</p>
             </div>
           </div>
           <div className='col'>
