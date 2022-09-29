@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
-import Avatar from '../public/avatar.png';
+import Avatar from '../public/Avatar.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
@@ -10,6 +9,25 @@ import Polaroid from '../components/global/polaroid';
 export default function Home() {
   return (
     <div className='main-cont'>
+      <Head>
+        <title>Jeremy Carmona</title>
+        <meta name='title' content='Jeremy Carmona' />
+        <meta
+          name='keywords'
+          content='Jeremy Carmona, Jeremy Carmona Front-end Developer portfolio, BCIT Digital Design and Development (D3) 2022'
+        />
+        <meta
+          name='description'
+          content='This portfolio includes projects in front-end development. Jeremy Carmona graduated from the D3 program at BCIT in 2022.'
+        />
+        <meta name='author' content='Jeremy Carmona' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        {/* <meta
+          name='google-site-verification'
+          content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
+        /> */}
+        <link rel='icon' href='/JC.svg' />
+      </Head>
       <div className='content'>
         <Navbar />
         <div className='row grid-two'>
@@ -69,19 +87,30 @@ export default function Home() {
           <div className='col'>
             <h2>Libraries & Frameworks</h2>
             <div>
-              <p>JavaScript (ES6+)</p>
-              <p>HTML</p>
-              <p>SASS/CSS</p>
-              <p>TypeScript</p>
+              <p>React</p>
+              <p>Next.js</p>
+              <p>Styled-components</p>
+              <p>Storybook.js</p>
+              <p>React Native</p>
+              <p>Expo</p>
+              <p>jQuery</p>
+              <p>MongoDB</p>
+              <p>Mongoose</p>
+              <p>Redux</p>
+              <p>Electron</p>
             </div>
           </div>
           <div className='col'>
             <h2>Tools & Platforms</h2>
             <div>
-              <p>JavaScript (ES6+)</p>
-              <p>HTML</p>
-              <p>SASS/CSS</p>
-              <p>TypeScript</p>
+              <p>Vercel</p>
+              <p>Node.js</p>
+              <p>Git</p>
+              <p>Github</p>
+              <p>Bitbucket</p>
+              <p>Firebase</p>
+              <p>Heroku</p>
+              <p>WordPress</p>
             </div>
           </div>
           <div className='col'>

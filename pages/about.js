@@ -1,4 +1,6 @@
-import Avatar from '../public/avatar.png';
+import Head from 'next/head';
+
+import Avatar from '../public/Avatar.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
@@ -7,6 +9,24 @@ import Polaroid from '../components/global/polaroid';
 export default function About() {
   return (
     <div className='main-cont'>
+      <Head>
+        <title>About Me</title>
+        <meta
+          name='keywords'
+          content='Jeremy Carmona Front-end Developer portfolio, BCIT Digital Design and Development (D3) 2022'
+        />
+        <meta
+          name='description'
+          content='This portfolio includes projects in front-end development. Jeremy Carmona graduated from the D3 program at BCIT in 2022.'
+        />
+        <meta name='author' content='Jeremy Carmona' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        {/* <meta
+          name='google-site-verification'
+          content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
+        /> */}
+        <link rel='icon' href='JC.svg' />
+      </Head>
       <div className='content'>
         <Navbar />
         <h1>About Me</h1>
