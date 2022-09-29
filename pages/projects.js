@@ -22,10 +22,10 @@ export default function Projects() {
         />
         <meta name='author' content='Jeremy Carmona' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        {/* <meta
+        <meta
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
-        /> */}
+        />
         <link rel='icon' href='JC.svg' />
       </Head>
       <div className='content'>
