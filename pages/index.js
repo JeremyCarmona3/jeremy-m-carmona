@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Avatar from '../public/avatar.png';
+import Avatar from '../public/Avatar.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';

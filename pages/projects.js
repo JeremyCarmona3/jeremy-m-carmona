@@ -1,3 +1,6 @@
+import OnMePic from '../public/OnMe.png';
+import MojiMealsPic from '../public/MojiMeals.png';
+
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
 import Polaroid from '../components/global/polaroid';
@@ -9,7 +12,11 @@ export default function Projects() {
         <Navbar />
         <h1>Projects</h1>
         <div className='projects'>
-          <Polaroid />
+          <Polaroid
+            image={OnMePic}
+            alt='Avatar of Jeremy'
+            caption='Front-end Developer'
+          />
           <div>
             <div className='projects-info'>
               <div className='projects-description'>
@@ -50,7 +57,11 @@ export default function Projects() {
           </div>
         </div>
         <div className='projects'>
-          <Polaroid />
+          <Polaroid
+            image={MojiMealsPic}
+            alt='Avatar of Jeremy'
+            caption='Front-end Developer'
+          />
           <div>
             <div className='projects-info'>
               <div className='projects-description'>
