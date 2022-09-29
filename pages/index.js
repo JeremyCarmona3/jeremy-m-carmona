@@ -1,12 +1,15 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
-import Avatar from '../public/Avatar.png';
+import OnMePic from '../public/OnMe.png';
+import MojiMealsPic from '../public/MojiMeals.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
 import Polaroid from '../components/global/polaroid';
 
 export default function Home() {
+  const router = useRouter();
   return (
     <div className='main-cont'>
       <Head>
@@ -22,60 +25,74 @@ export default function Home() {
         />
         <meta name='author' content='Jeremy Carmona' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <meta
-          name='google-site-verification'
-          content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
-        />
         <link rel='icon' href='/JC.svg' />
       </Head>
-      <Navbar />
+      <Navbar home='home' />
       <div className='content'>
+        <h1>
+          Hi, I{"'"}m Jeremy and I am a front-end developer. Welcome to my
+          portfolio 👋
+        </h1>
+        <p>
+          I am a front-end developer and a recent graduate of the{' '}
+          <a
+            href='https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Digital Design and Development
+          </a>{' '}
+          program at the British Columbia Institute of Technology. During my 2
+          years at BCIT, the program taught me how to design and develop web and
+          mobile cross-platform applications.
+        </p>
         <div className='row grid-two'>
           <div className='col'>
-            <h1>Jeremy Carmona{"'"}s Portfolio</h1>
-            <p>
-              I am a recent graduate of the Digital Design and Development
-              program at the British Columbia Institute of Technology. During my
-              2 years at BCIT, I learned many things ranging from designing to
-              developing. Although I like designing, developing web and mobile
-              cross-platform applications was something I was more passionate
-              about. I aspire to be a full-stack developer later on in my
-              career.
-            </p>
-            <div className='row grid-two'>
-              <div className='col'>
-                <h2>Experience</h2>
-                <div>
-                  <p>Goopter Holdings Ltd.</p>
-                  <p>Front-end Developer Intern</p>
-                  <p>April 2022-May 2022</p>
-                </div>
+            <h2>Experience</h2>
+            <div>
+              <p>Goopter Holdings Ltd.</p>
+              <p>Front-end Developer Intern</p>
+              <p>April 2022-May 2022</p>
+            </div>
+            <h2>Projects</h2>
+            <div>
+              <p>MojiMeals</p>
+              <p>Full-stack Developer</p>
+              <p>February 2022-March 2022</p>
+            </div>
+            <div>
+              <p>OnMe</p>
+              <p>Front-end Developer</p>
+              <p>September 2021-December 2021</p>
+            </div>
+          </div>
+          <div className='col'>
+            <div className='projects-grid-two'>
+              <div
+                className='polaroid-cont'
+                onClick={() => router.push('/projects')}
+              >
+                <Polaroid
+                  image={OnMePic}
+                  alt='OnMe Application Screenshots'
+                  caption='OnMe'
+                />
               </div>
-              <div className='col'>
-                <h2>Projects</h2>
-                <div>
-                  <p>MojiMeals</p>
-                  <p>Full-stack Developer</p>
-                  <p>February 2022-March 2022</p>
-                </div>
-                <div>
-                  <p>OnMe</p>
-                  <p>Front-end Developer</p>
-                  <p>September 2021-December 2021</p>
-                </div>
+              <div
+                className='polaroid-cont'
+                onClick={() => router.push('/projects')}
+              >
+                <Polaroid
+                  image={MojiMealsPic}
+                  alt='MojiMeals Website screenshot'
+                  caption='MojiMeals'
+                />
               </div>
             </div>
           </div>
-          <div className='polaroid-cont'>
-            <Polaroid
-              image={Avatar}
-              alt='Avatar of Jeremy'
-              caption='Front-end Developer'
-            />
-          </div>
         </div>
         <div className='row grid-four'>
-          <div className='col'>
+          <div>
             <h2>Programming Languages</h2>
             <div>
               <p>JavaScript (ES6+)</p>
@@ -84,7 +101,7 @@ export default function Home() {
               <p>TypeScript</p>
             </div>
           </div>
-          <div className='col'>
+          <div>
             <h2>Libraries & Frameworks</h2>
             <div>
               <p>React</p>
@@ -100,7 +117,7 @@ export default function Home() {
               <p>Electron</p>
             </div>
           </div>
-          <div className='col'>
+          <div>
             <h2>Tools & Platforms</h2>
             <div>
               <p>Vercel</p>
@@ -113,7 +130,7 @@ export default function Home() {
               <p>WordPress</p>
             </div>
           </div>
-          <div className='col'>
+          <div>
             <h2>Design</h2>
             <div>
               <p>Figma</p>
