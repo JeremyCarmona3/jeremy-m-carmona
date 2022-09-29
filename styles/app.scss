@@ -32,6 +32,10 @@ li {
   margin: 10px 0;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .main-cont {
   display: flex;
   flex-direction: column;
