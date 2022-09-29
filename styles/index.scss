@@ -1,3 +1,8 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -8,17 +13,14 @@
   flex-direction: row;
 }
 
-.grid-two {
+.grid-two,
+.projects-grid-two {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
-  margin: 2rem 0;
 }
 
-.grid-three {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
+.grid-two {
   margin: 2rem 0;
 }
 
@@ -36,5 +38,7 @@
 
 .polaroid-cont {
   display: flex;
-  justify-content: flex-end;
+  :hover {
+    cursor: pointer;
+  }
 }

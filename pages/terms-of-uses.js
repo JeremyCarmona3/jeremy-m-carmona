@@ -18,14 +18,10 @@ export default function TermsOfUses() {
         />
         <meta name='author' content='Jeremy Carmona' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <meta
-          name='google-site-verification'
-          content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
-        />
         <link rel='icon' href='JC.svg' />
       </Head>
+      <Navbar />
       <div className='content'>
-        <Navbar />
         <h1>Terms of Uses</h1>
         <p>
           Jeremy Carmona welcomes you to his Web site. Using this Web site
