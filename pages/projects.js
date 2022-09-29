@@ -14,8 +14,8 @@ export default function Projects() {
         <div className='projects'>
           <Polaroid
             image={OnMePic}
-            alt='Avatar of Jeremy'
-            caption='Front-end Developer'
+            alt='OnMe Application Screenshots'
+            caption='OnMe'
           />
           <div>
             <div className='projects-info'>
@@ -48,10 +48,20 @@ export default function Projects() {
             <div className='projects-info'>
               <div className='projects-description'>
                 <h2>Links</h2>
-                <div>
-                  <p>Application Demo</p>
-                  <p>Github</p>
-                </div>
+                <a
+                  href='https://youtu.be/1NiF7avZNEI'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Application Demo
+                </a>
+                <a
+                  href='https://github.com/dnguyen130/onme'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>
@@ -59,8 +69,8 @@ export default function Projects() {
         <div className='projects'>
           <Polaroid
             image={MojiMealsPic}
-            alt='Avatar of Jeremy'
-            caption='Front-end Developer'
+            alt='MojiMeals Website screenshot'
+            caption='MojiMeals'
           />
           <div>
             <div className='projects-info'>
@@ -80,6 +90,7 @@ export default function Projects() {
               <div className='projects-info-col'>
                 <h2>Made With</h2>
                 <div>
+                  <p>Vercel</p>
                   <p>React</p>
                   <p>Next.js</p>
                   <p>Styled-components</p>
@@ -92,10 +103,20 @@ export default function Projects() {
             <div className='projects-info'>
               <div className='projects-description'>
                 <h2>Links</h2>
-                <div>
-                  <p>Live Site</p>
-                  <p>Github</p>
-                </div>
+                <a
+                  href='https://moji-meals.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Live Site
+                </a>
+                <a
+                  href='https://github.com/JeremyCarmona3/moji-meals'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>
