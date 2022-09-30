@@ -28,7 +28,7 @@ export default function About() {
         <h1>About Me</h1>
         <div>
           <div className='about-me-row'>
-            <div>
+            <div className='about-me-text'>
               <p>
                 Hi my name is Jeremy Carmona. I am a front-end developer and I
                 graduated from the Digital Design and Development program at
@@ -45,6 +45,57 @@ export default function About() {
                 alt='Avatar of Jeremy'
                 caption='Front-end Developer'
               />
+            </div>
+          </div>
+          <div className='row flex-skills'>
+            <div className='skills'>
+              <h2>Programming Languages</h2>
+              <div>
+                <p>JavaScript (ES6+)</p>
+                <p>HTML</p>
+                <p>SASS/CSS</p>
+                <p>TypeScript</p>
+              </div>
+            </div>
+            <div className='skills'>
+              <h2>Libraries & Frameworks</h2>
+              <div>
+                <p>React</p>
+                <p>Next.js</p>
+                <p>Styled-components</p>
+                <p>Storybook.js</p>
+                <p>React Native</p>
+                <p>Expo</p>
+                <p>jQuery</p>
+                <p>MongoDB</p>
+                <p>Mongoose</p>
+                <p>Redux</p>
+                <p>Electron</p>
+              </div>
+            </div>
+            <div className='skills'>
+              <h2>Tools & Platforms</h2>
+              <div>
+                <p>Vercel</p>
+                <p>Node.js</p>
+                <p>Git</p>
+                <p>Github</p>
+                <p>Bitbucket</p>
+                <p>Firebase</p>
+                <p>Heroku</p>
+                <p>WordPress</p>
+              </div>
+            </div>
+            <div className='skills'>
+              <h2>Design</h2>
+              <div>
+                <p>Figma</p>
+                <p>Illustrator</p>
+                <p>Photoshop</p>
+                <p>After Effects</p>
+                <p>Premiere Pro</p>
+                <p>InDesign</p>
+              </div>
             </div>
           </div>
         </div>

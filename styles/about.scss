@@ -3,7 +3,24 @@
   flex-direction: row;
 }
 
+.about-me-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .avatar-polaroid {
   display: flex;
-  justify-content: flex-end;
+}
+
+.flex-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 0.5rem 0 0;
 }

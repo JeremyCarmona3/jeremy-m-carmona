@@ -24,18 +24,6 @@ a {
   margin: 2rem 0;
 }
 
-.grid-four {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 2rem 0;
-}
-
-.skills {
-  display: flex;
-  justify-content: space-between;
-}
-
 .polaroid-cont {
   display: flex;
   :hover {
