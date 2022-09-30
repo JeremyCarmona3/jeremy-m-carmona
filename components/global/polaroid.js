@@ -10,7 +10,7 @@ export default function Polaroid({ image = '', alt = '', caption = '' }) {
           <Image src={image} alt={alt} />
         </div>
       </div>
-      <h2>{caption}</h2>
+      <h2 className='polaroid-caption'>{caption}</h2>
     </div>
   );
 }

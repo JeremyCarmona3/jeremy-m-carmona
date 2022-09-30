@@ -1,31 +1,40 @@
 .projects {
   display: flex;
+  flex: 1;
   flex-direction: row;
   margin: 2rem 0;
 }
 
-.projects-info {
+.projects-polaroid {
   display: flex;
   flex: 1;
-  flex-direction: row;
-  margin: 0 2rem;
+}
+
+.project-cont {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .projects-description {
   display: flex;
-  flex: 2;
   flex-direction: column;
-  margin: 0 1rem;
+  margin: 0 0 0 2rem;
+}
+
+.projects-info {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2rem;
 }
 
 .projects-info-col {
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin: 0 1rem;
 }
 
-.projects-description a {
+.projects-info-col a {
   color: #0f111a;
   font-family: Helvetica Neue, sans-serif;
   text-decoration: none;

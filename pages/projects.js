@@ -28,27 +28,31 @@ export default function Projects() {
       <div className='content'>
         <h1>Projects</h1>
         <div className='projects'>
-          <Polaroid
-            image={OnMePic}
-            alt='OnMe Application Screenshots'
-            caption='OnMe'
-          />
           <div>
-            <div className='projects-info'>
-              <div className='projects-description'>
-                <h2>OnMe</h2>
-                <div>
-                  <p>
-                    OnMe is a cross-platform mobile app dedicated to the lonely
-                    residents of Metro Vancouver. It allows the user to order
-                    anyone inside the current restaurant a food or drink item
-                    based on their table and seat number. It was created by D3
-                    BCIT students as our 3rd semester final project. The proof
-                    of concept was presented to 200 people, including students,
-                    faculty, and industry experts.
-                  </p>
-                </div>
+            <div className='projects-polaroid'>
+              <Polaroid
+                image={OnMePic}
+                alt='OnMe Application Screenshots'
+                caption='OnMe'
+              />
+            </div>
+          </div>
+          <div className='project-cont'>
+            <div className='projects-description'>
+              <h2>OnMe</h2>
+              <div>
+                <p>
+                  OnMe is a cross-platform mobile app dedicated to the lonely
+                  residents of Metro Vancouver. It allows the user to order
+                  anyone inside the current restaurant a food or drink item
+                  based on their table and seat number. It was created by D3
+                  BCIT students as our 3rd semester final project. The proof of
+                  concept was presented to 200 people, including students,
+                  faculty, and industry experts.
+                </p>
               </div>
+            </div>
+            <div className='projects-info'>
               <div className='projects-info-col'>
                 <h2>Made With</h2>
                 <div>
@@ -60,9 +64,7 @@ export default function Projects() {
                   <p>PHP</p>
                 </div>
               </div>
-            </div>
-            <div className='projects-info'>
-              <div className='projects-description'>
+              <div className='projects-info-col'>
                 <h2>Links</h2>
                 <a
                   href='https://youtu.be/1NiF7avZNEI'
@@ -83,26 +85,29 @@ export default function Projects() {
           </div>
         </div>
         <div className='projects'>
-          <Polaroid
-            image={MojiMealsPic}
-            alt='MojiMeals Website screenshot'
-            caption='MojiMeals'
-          />
           <div>
-            <div className='projects-info'>
-              <div className='projects-description'>
-                <h2>MojiMeals</h2>
-                <div>
-                  <p>
-                    MojiMeals is an application that will display a list of
-                    emojis from a chosen dataset from Kaggle. When a user clicks
-                    an emoji, it will lead to the next page and show the
-                    nutrition data of the emoji ingredient or food. It features
-                    other pages such as Find Recipe, Settings, and Nutrition
-                    Calculator.
-                  </p>
-                </div>
+            <div className='projects-polaroid'>
+              <Polaroid
+                image={MojiMealsPic}
+                alt='MojiMeals Website screenshot'
+                caption='MojiMeals'
+              />
+            </div>
+          </div>
+          <div className='project-cont'>
+            <div className='projects-description'>
+              <h2>MojiMeals</h2>
+              <div>
+                <p>
+                  MojiMeals is an application that will display a list of emojis
+                  from a chosen dataset from Kaggle. When a user clicks an
+                  emoji, it will lead to the next page and show the nutrition
+                  data of the emoji ingredient or food. It features other pages
+                  such as Find Recipe, Settings, and Nutrition Calculator.
+                </p>
               </div>
+            </div>
+            <div className='projects-info'>
               <div className='projects-info-col'>
                 <h2>Made With</h2>
                 <div>
@@ -115,9 +120,7 @@ export default function Projects() {
                   <p>Socket.IO</p>
                 </div>
               </div>
-            </div>
-            <div className='projects-info'>
-              <div className='projects-description'>
+              <div className='projects-info-col'>
                 <h2>Links</h2>
                 <a
                   href='https://moji-meals.vercel.app/'
