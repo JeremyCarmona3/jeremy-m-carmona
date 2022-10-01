@@ -30,11 +30,11 @@ export default function Home() {
       <Navbar home='home' />
       <div className='content'>
         <h1>
-          Hi, I{"'"}m Jeremy and I am a front-end developer. Welcome to my
-          portfolio 👋
+          Hi, I{"'"}m Jeremy and I am a front-end developer with a background in
+          UX/UI design. Welcome to my portfolio 👋
         </h1>
         <p>
-          I am a front-end developer and a recent graduate of the{' '}
+          I am a recent graduate of the{' '}
           <a
             href='https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/'
             target='_blank'
@@ -43,51 +43,53 @@ export default function Home() {
             Digital Design and Development
           </a>{' '}
           program at the British Columbia Institute of Technology. During my 2
-          years at BCIT, the program taught me how to design and develop web and
-          mobile cross-platform applications.
+          years at BCIT, I have learned how to design and develop web and mobile
+          cross-platform applications.
         </p>
-        <div className='row grid-two'>
-          <div className='col'>
-            <h2>Experience</h2>
-            <div>
-              <p>Goopter Holdings Ltd.</p>
-              <p>Front-end Developer Intern</p>
-              <p>April 2022-May 2022</p>
+        <div className='row'>
+          <div className='row relevant-experience-cont'>
+            <div className='relevant-experience'>
+              <h2>Experience</h2>
+              <div>
+                <p>Goopter Holdings Ltd.</p>
+                <p>Front-end Developer Intern</p>
+                <p>April 2022-May 2022</p>
+              </div>
             </div>
-            <h2>Projects</h2>
-            <div>
-              <p>MojiMeals</p>
-              <p>Full-stack Developer</p>
-              <p>February 2022-March 2022</p>
-            </div>
-            <div>
-              <p>OnMe</p>
-              <p>Front-end Developer</p>
-              <p>September 2021-December 2021</p>
+            <div className='relevant-experience'>
+              <h2>Projects</h2>
+              <div>
+                <p>MojiMeals</p>
+                <p>Full-stack Developer</p>
+                <p>February 2022-March 2022</p>
+              </div>
+              <div>
+                <p>OnMe</p>
+                <p>Front-end Developer</p>
+                <p>September 2021-December 2021</p>
+              </div>
             </div>
           </div>
-          <div className='col'>
-            <div className='projects-grid-two'>
-              <div
-                className='polaroid-cont'
-                onClick={() => router.push('/projects')}
-              >
-                <Polaroid
-                  image={OnMePic}
-                  alt='OnMe Application Screenshots'
-                  caption='OnMe'
-                />
-              </div>
-              <div
-                className='polaroid-cont'
-                onClick={() => router.push('/projects')}
-              >
-                <Polaroid
-                  image={MojiMealsPic}
-                  alt='MojiMeals Website screenshot'
-                  caption='MojiMeals'
-                />
-              </div>
+          <div className='row projects-cont'>
+            <div
+              className='polaroid-cont'
+              onClick={() => router.push('/projects')}
+            >
+              <Polaroid
+                image={OnMePic}
+                alt='OnMe Application Screenshots'
+                caption='OnMe'
+              />
+            </div>
+            <div
+              className='polaroid-cont'
+              onClick={() => router.push('/projects')}
+            >
+              <Polaroid
+                image={MojiMealsPic}
+                alt='MojiMeals Website screenshot'
+                caption='MojiMeals'
+              />
             </div>
           </div>
         </div>

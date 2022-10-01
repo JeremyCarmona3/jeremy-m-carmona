@@ -1,6 +1,7 @@
 .projects {
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 2rem 0;
 }
@@ -8,6 +9,7 @@
 .projects-polaroid {
   display: flex;
   flex: 1;
+  margin: 0 0 2rem 0;
 }
 
 .project-cont {
@@ -20,18 +22,21 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 0 2rem;
+  min-width: 300px;
 }
 
 .projects-info {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 2rem;
 }
 
 .projects-info-col {
   display: flex;
-  flex: 1;
   flex-direction: column;
+  max-width: 200px;
+  margin: 0 2rem 0 0;
 }
 
 .projects-info-col a {

@@ -1,16 +1,17 @@
 .about-me-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.about-me-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
+.about-me-text {
+  display: flex;
+  max-width: 500px;
 }
 
 .avatar-polaroid {
   display: flex;
+  margin: 0 2rem 2rem 0;
 }
 
 .flex-skills {
@@ -20,7 +21,6 @@
 }
 
 .skills {
-  flex: 1;
   min-width: 200px;
   margin: 0 0.5rem 0 0;
 }

@@ -59,10 +59,12 @@ export default function PrivacyPolicy() {
           Jeremy Carmona may collect the following non-identifiable information
           when you visit this Web site:
         </p>
-        <li>Your Internet Service Provider (ISP)</li>
-        <li>Time of your visit</li>
-        <li>Pages you visited</li>
-        <li>Web Browser Used</li>
+        <ul>
+          <p>- Your Internet Service Provider (ISP)</p>
+          <p>- Time of your visit</p>
+          <p>- Pages you visited</p>
+          <p>- Web Browser Used</p>
+        </ul>
         <p>What If I Do Not Agree With this Privacy Policy?</p>
         <p>
           By visiting this Web site and voluntarily providing personal
