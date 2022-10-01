@@ -9,8 +9,7 @@
 .menu ul {
   position: relative;
   top: 0px;
-  font-family: Helvetica Neue, sans-serif;
-  font-size: 24px;
+  font-size: calc(24px + 0.390625vw);
   padding: 0px;
 }
 
@@ -23,7 +22,8 @@
 
 .menu a {
   color: black;
-  font-family: Helvetica Neue, sans-serif;
+  font-size: calc(24px + 0.390625vw);
+  outline: none;
   padding: 0;
 }
 

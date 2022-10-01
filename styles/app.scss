@@ -18,12 +18,13 @@
 body {
   background-color: #faf8f6;
   overflow-y: scroll;
+  font-family: -apple-system, Helvetica Neue, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
 
 h1,
 h2 {
   color: #0f111a;
-  font-family: Poppins;
   font-weight: 600;
 }
 
@@ -32,17 +33,16 @@ h1 {
 }
 
 h2 {
-  font-size: calc(16px + 0.390625vw);
+  font-size: calc(18px + 0.390625vw);
 }
 
 p,
 a {
-  font-size: calc(10px + 0.390625vw);
+  font-size: calc(12px + 0.390625vw);
 }
 p,
 li {
   color: #0f111a;
-  font-family: Helvetica Neue, sans-serif;
   margin: 10px 0;
 }
 
