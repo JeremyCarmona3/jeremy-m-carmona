@@ -30,6 +30,7 @@ export default function Home() {
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
         <link rel='icon' href='/JC.svg' />
+        <link rel='shortcut icon' href='/JC.svg' />
       </Head>
       <Navbar home='home' />
       <div className='content'>
