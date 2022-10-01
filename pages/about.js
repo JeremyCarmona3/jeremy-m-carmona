@@ -26,12 +26,13 @@ export default function About() {
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
         <link rel='icon' href='JC.svg' />
+        <link rel='shortcut icon' href='/JC.svg' />
       </Head>
       <Navbar />
       <div className='content'>
         <h1>About Me</h1>
-        <div>
-          <div className='about-me-row about-me-grid'>
+        <div className='about-me-margin'>
+          <div className='about-me-row'>
             <div className='avatar-polaroid'>
               <Polaroid
                 image={Avatar}
