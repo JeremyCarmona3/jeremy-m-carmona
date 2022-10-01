@@ -27,7 +27,14 @@ export default function About() {
       <div className='content'>
         <h1>About Me</h1>
         <div>
-          <div className='about-me-row'>
+          <div className='about-me-row about-me-grid'>
+            <div className='avatar-polaroid'>
+              <Polaroid
+                image={Avatar}
+                alt='Avatar of Jeremy'
+                caption="I'm Jeremy 👋"
+              />
+            </div>
             <div className='about-me-text'>
               <p>
                 Hi my name is Jeremy Carmona. I am a front-end developer and I
@@ -39,15 +46,8 @@ export default function About() {
                 knowledge and become a full-stack developer.
               </p>
             </div>
-            <div className='avatar-polaroid'>
-              <Polaroid
-                image={Avatar}
-                alt='Avatar of Jeremy'
-                caption='Front-end Developer'
-              />
-            </div>
           </div>
-          <div className='row flex-skills'>
+          <div className='about-me-row flex-skills'>
             <div className='skills'>
               <h2>Programming Languages</h2>
               <div>

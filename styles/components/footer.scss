@@ -8,6 +8,7 @@
 .footer-links-cont {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -23,6 +24,8 @@
 
 .footer-links {
   display: flex;
+  justify-content: space-between;
+  min-width: 300px;
 }
 
 .footer-links a {
@@ -30,9 +33,9 @@
   font-family: Helvetica Neue, sans-serif;
   text-decoration: none;
   margin: 10px 0;
-  padding-left: 30px;
 }
 
-.divider {
-  padding-left: 30px;
+.icons-cont {
+  justify-content: space-between;
+  min-width: 80px;
 }

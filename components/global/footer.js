@@ -11,13 +11,15 @@ export default function Footer({}) {
       <div className='footer-links-cont'>
         <div className='footer-links'>
           <p>Copyright © 2022 Jeremy Carmona. All rights reserved.</p>
+        </div>
+        <div className='footer-links'>
           <Link href='/about'>About</Link>
           <p className='divider'>|</p>
           <Link href='/privacy-policy'>Privacy Policy</Link>
           <p className='divider'>|</p>
           <Link href='/terms-of-uses'>Terms of Uses</Link>
         </div>
-        <div className='footer-links'>
+        <div className='footer-links icons-cont'>
           <a
             href='https://github.com/JeremyCarmona3'
             target='_blank'
