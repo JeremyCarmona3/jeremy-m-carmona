@@ -7,3 +7,7 @@ This is a portfolio contains some projects during my 2 years of education at BCI
 - Next.js
 - SASS
 - Vercel
+
+## Contact Information
+
+Email: jeremycarmona115@gmail.com
