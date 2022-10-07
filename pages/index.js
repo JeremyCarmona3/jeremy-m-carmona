@@ -35,8 +35,8 @@ export default function Home() {
       <Navbar home='home' />
       <div className='content'>
         <h1>
-          Hi, I{"'"}m Jeremy and I am a front-end developer with a background in
-          UX/UI design. Welcome to my portfolio 👋
+          Hi, I{"'"}m Jeremy Carmona and I am a front-end developer with a
+          background in UI/UX design. Welcome to my portfolio 👋
         </h1>
         <p>
           I am a recent graduate of the{' '}
