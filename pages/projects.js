@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import OnMePic from '../public/OnMe.png';
 import MojiMealsPic from '../public/MojiMeals.png';
+import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
@@ -26,8 +27,7 @@ export default function Projects() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/JC.svg' />
-        <link rel='shortcut icon' href='/JC.svg' />
+        <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
       <div className='content'>
@@ -144,6 +144,45 @@ export default function Projects() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='projects'>
+          <div>
+            <div className='projects-polaroid'>
+              <Polaroid
+                image={PS4ControllerIllustration}
+                alt='PS4 Controller Illustration screenshot'
+                caption='PS4 Controller Illustration'
+              />
+            </div>
+          </div>
+          <div className='project-cont'>
+            <div className='projects-description'>
+              <h2>PS4 Controller Illustration</h2>
+              <div>
+                <p>Add description here</p>
+              </div>
+            </div>
+            <div className='projects-info'>
+              <div className='projects-info-col'>
+                <h2>Made With</h2>
+                <div>
+                  <p>Adobe Illustrator</p>
+                </div>
+              </div>
+              <div className='projects-info-col'>
+                <h2>Files</h2>
+                <a
+                  href='/Jeremy_Carmona_Assignment05-01.png'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  View Illustration
+                </a>
+                <p>AI file will be available upon request.</p>
+              </div>
+            </div>
+          </div>
+          ;
         </div>
       </div>
       <Footer />

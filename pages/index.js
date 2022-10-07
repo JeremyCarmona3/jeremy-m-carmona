@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 
 import OnMePic from '../public/OnMe.png';
 import MojiMealsPic from '../public/MojiMeals.png';
+import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
 
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
@@ -29,8 +30,7 @@ export default function Home() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/JC.svg' />
-        <link rel='shortcut icon' href='/JC.svg' />
+        <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar home='home' />
       <div className='content'>
@@ -54,24 +54,21 @@ export default function Home() {
         <div className='row'>
           <div className='row relevant-experience-cont'>
             <div className='relevant-experience'>
-              <h2>Experience</h2>
-              <div>
-                <p>Goopter Holdings Ltd.</p>
-                <p>Front-end Developer Intern</p>
-                <p>April 2022-May 2022</p>
-              </div>
-            </div>
-            <div className='relevant-experience'>
               <h2>Projects</h2>
               <div>
-                <p>MojiMeals</p>
+                <p className='boldedtext'>MojiMeals</p>
                 <p>Full-stack Developer</p>
                 <p>February 2022-March 2022</p>
               </div>
               <div>
-                <p>OnMe</p>
+                <p className='boldedtext'>OnMe</p>
                 <p>Front-end Developer</p>
                 <p>September 2021-December 2021</p>
+              </div>
+              <div>
+                <p className='boldedtext'>PS4 Controller Illustration</p>
+                <p>Graphic Designer</p>
+                <p>November 2020</p>
               </div>
             </div>
           </div>
@@ -94,6 +91,16 @@ export default function Home() {
                 image={MojiMealsPic}
                 alt='MojiMeals Website screenshot'
                 caption='MojiMeals'
+              />
+            </div>
+            <div
+              className='polaroid-cont'
+              onClick={() => router.push('/projects')}
+            >
+              <Polaroid
+                image={PS4ControllerIllustration}
+                alt='PS4 Controller Illustration screenshot'
+                caption='PS4 Controller Illustration'
               />
             </div>
           </div>

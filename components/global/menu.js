@@ -15,7 +15,7 @@ export default function Menu({ close }) {
         <Link href='/about'>
           <li onClick={close}>About</li>
         </Link>
-        <a href='/Resume.pdf' target='_blank' rel='noreferrer'>
+        <a href='/Jeremy_Carmona_Resume.pdf' target='_blank' rel='noreferrer'>
           <li onClick={close}>Resume</li>
         </a>
       </ul>

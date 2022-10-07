@@ -10,12 +10,12 @@ import Menu from './menu';
 export default function Navbar({}) {
   return (
     <div className='navbar-cont'>
-      <object data='JC_Dark.svg' width='40' height='40' />
+      <object data='JC_Icon_Dark.svg' width='40' height='40' />
       <div className='navbar-links'>
         <Link href='/'>Home</Link>
         <Link href='/projects'>Projects</Link>
         <Link href='/about'>About</Link>
-        <a href='/Resume.pdf' target='_blank' rel='noreferrer'>
+        <a href='/Jeremy_Carmona_Resume.pdf' target='_blank' rel='noreferrer'>
           Resume
         </a>
         <Popup
