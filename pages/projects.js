@@ -27,8 +27,7 @@ export default function Projects() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/JC.svg' />
-        <link rel='shortcut icon' href='/JC.svg' />
+        <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
       <div className='content'>
