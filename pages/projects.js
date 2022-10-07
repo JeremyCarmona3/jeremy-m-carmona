@@ -159,7 +159,10 @@ export default function Projects() {
             <div className='projects-description'>
               <h2>PS4 Controller Illustration</h2>
               <div>
-                <p>Add description here</p>
+                <p>
+                  This was an assignment where we were tasked to choose a
+                  mechanical object and illustrate it using Adobe Illustrator.
+                </p>
               </div>
             </div>
             <div className='projects-info'>
