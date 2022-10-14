@@ -22,7 +22,7 @@ export default function Home() {
         />
         <meta
           name='description'
-          content='This portfolio includes projects in front-end development. Jeremy Carmona graduated from the D3 program at BCIT in 2022.'
+          content='Jeremy Carmona is a solution-driven front-end developer with a solid understanding in how to design and develop cross-platform applications.'
         />
         <meta name='author' content='Jeremy Carmona' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -35,8 +35,8 @@ export default function Home() {
       <Navbar home='home' />
       <div className='content'>
         <h1>
-          Hi, I{"'"}m Jeremy Carmona and I am a front-end developer with a
-          background in UI/UX design. Welcome to my portfolio 👋
+          Hi, I{"'"}m Jeremy Carmona and I am a solution-driven Front-end
+          Developer. Welcome to my portfolio 👋
         </h1>
         <p>
           I am a recent graduate of the{' '}
