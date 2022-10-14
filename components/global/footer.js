@@ -30,7 +30,7 @@ export default function Footer({}) {
             <FaGithub />
           </a>
           <a
-            href='https://www.linkedin.com/in/jeremy-carmona-0685731bb/'
+            href='https://www.linkedin.com/in/jeremymcarmona/'
             target='_blank'
             rel='noreferrer'
           >

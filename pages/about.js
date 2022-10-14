@@ -41,8 +41,9 @@ export default function About() {
             </div>
             <div className='about-me-text'>
               <p>
-                Hi my name is Jeremy Carmona. I am a front-end developer and I
-                graduated from the Digital Design and Development program at
+                Hi my name is Jeremy Carmona. I am a front-end developer with a
+                background in UI/UX design, graphic design, and digital design.
+                I graduated from the Digital Design and Development program at
                 BCIT in 2022. From this program, I learned how to design and
                 develop cross-platform applications. We were taught industry
                 standard practices and how to work collaboratively as a team to
@@ -55,7 +56,7 @@ export default function About() {
             <div className='skills'>
               <h2>Programming Languages</h2>
               <div>
-                <p>JavaScript (ES6+)</p>
+                <p>JavaScript (ES6)</p>
                 <p>HTML</p>
                 <p>SASS/CSS</p>
                 <p>TypeScript</p>
@@ -70,9 +71,8 @@ export default function About() {
                 <p>Storybook.js</p>
                 <p>React Native</p>
                 <p>Expo</p>
-                <p>jQuery</p>
                 <p>MongoDB</p>
-                <p>Mongoose</p>
+                <p>Socket.IO</p>
                 <p>Redux</p>
                 <p>Electron</p>
               </div>
@@ -83,11 +83,8 @@ export default function About() {
                 <p>Vercel</p>
                 <p>Node.js</p>
                 <p>Git</p>
-                <p>Github</p>
-                <p>Bitbucket</p>
                 <p>Firebase</p>
                 <p>Heroku</p>
-                <p>WordPress</p>
               </div>
             </div>
             <div className='skills'>
