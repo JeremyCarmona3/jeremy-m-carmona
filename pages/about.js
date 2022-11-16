@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 
 import Avatar from '../public/Avatar.png';
 
@@ -28,7 +29,12 @@ export default function About() {
         <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
-      <div className='content'>
+      <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}
+        className='content'
+      >
         <h1>About Me</h1>
         <div className='about-me-margin'>
           <div className='about-me-row'>
@@ -100,7 +106,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <Footer />
     </div>
   );

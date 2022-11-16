@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { motion } from 'framer-motion';
+
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
 
@@ -25,7 +27,12 @@ export default function PrivacyPolicy() {
         <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
-      <div className='content'>
+      <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}
+        className='content'
+      >
         <h1>Privacy Policy</h1>
         <p>
           This policy applies to Jeremy Carmona{"'"}s Web site only. It is
@@ -79,7 +86,7 @@ export default function PrivacyPolicy() {
         </p>
         <p>Jeremy Carmona + Digital Design and Development BCIT </p>
         <p></p>
-      </div>
+      </motion.div>
       <Footer />
     </div>
   );

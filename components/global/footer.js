@@ -2,11 +2,19 @@ import React from 'react';
 
 import Link from 'next/link';
 
+import { motion } from 'framer-motion';
+
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-export default function Footer({}) {
+export default function Footer() {
   return (
-    <div className='footer-cont'>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className='footer-cont'
+    >
       <hr className='line' />
       <div className='footer-links-cont'>
         <div className='footer-row'>
@@ -38,6 +46,6 @@ export default function Footer({}) {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
