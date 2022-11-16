@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 
 import OnMePic from '../public/OnMe.png';
 import MojiMealsPic from '../public/MojiMeals.png';
@@ -33,7 +34,12 @@ export default function Home() {
         <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar home='home' />
-      <div className='content'>
+      <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}
+        className='content'
+      >
         <h1>
           Hi, I{"'"}m Jeremy Carmona and I am a solution-driven Front-end
           Developer. Welcome to my portfolio 👋
@@ -105,7 +111,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <Footer />
     </div>
   );

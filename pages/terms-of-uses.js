@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { motion } from 'framer-motion';
+
 import Navbar from '../components/global/navbar';
 import Footer from '../components/global/footer';
 
@@ -25,7 +27,12 @@ export default function TermsOfUses() {
         <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
-      <div className='content'>
+      <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}
+        className='content'
+      >
         <h1>Terms of Uses</h1>
         <p>
           Jeremy Carmona welcomes you to his Web site. Using this Web site
@@ -62,7 +69,7 @@ export default function TermsOfUses() {
           User Agreement, do not use this Web site.
         </p>
         <p>Jeremy Carmona + Digital Design and Development BCIT </p>
-      </div>
+      </motion.div>
       <Footer />
     </div>
   );

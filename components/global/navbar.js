@@ -4,12 +4,19 @@ import Link from 'next/link';
 
 import Popup from 'reactjs-popup';
 
+import { motion } from 'framer-motion';
+
 import BurgerIcon from './burger-icon';
 import Menu from './menu';
 
 export default function Navbar({}) {
   return (
-    <div className='navbar-cont'>
+    <motion.div
+      initial={{ opacity: 0, scale: 1 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 2 }}
+      className='navbar-cont'
+    >
       <object data='JC_Icon_Dark.svg' width='40' height='40' />
       <div className='navbar-links'>
         <Link href='/'>Home</Link>
@@ -27,6 +34,6 @@ export default function Navbar({}) {
           {(close) => <Menu close={close} />}
         </Popup>
       </div>
-    </div>
+    </motion.div>
   );
 }

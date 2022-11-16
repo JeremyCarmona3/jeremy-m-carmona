@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { motion } from 'framer-motion';
+
 import OnMePic from '../public/OnMe.png';
 import MojiMealsPic from '../public/MojiMeals.png';
 import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
@@ -30,7 +32,12 @@ export default function Projects() {
         <link rel='icon' href='/JC_Icon.svg' />
       </Head>
       <Navbar />
-      <div className='content'>
+      <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}
+        className='content'
+      >
         <h1>Projects</h1>
         <div className='projects'>
           <div>
@@ -187,7 +194,7 @@ export default function Projects() {
           </div>
           ;
         </div>
-      </div>
+      </motion.div>
       <Footer />
     </div>
   );
