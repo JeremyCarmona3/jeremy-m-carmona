@@ -1,10 +1,15 @@
+.navbar-main {
+  // display: flex;
+  // align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
 .navbar-cont {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  margin: 2rem 0;
 }
 
 .navbar-links {

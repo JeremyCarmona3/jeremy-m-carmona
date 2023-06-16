@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 import Avatar from '../public/Avatar.png';
@@ -36,17 +37,19 @@ export default function About() {
         className='content'
       >
         <h1>About Me</h1>
-        <div className='about-me-margin'>
+        <div className='about-me-col'>
           <div className='about-me-row'>
-            <div className='avatar-polaroid'>
-              <Polaroid
-                image={Avatar}
-                alt='Avatar of Jeremy'
-                caption="I'm Jeremy 👋"
+            <div className='profile-pic'>
+              <Image
+                src='/jeremy.png'
+                width={2080}
+                height={2080}
+                // layout='responsive'
+                alt='Picture of Jeremy'
               />
             </div>
-            <div className='about-me-text'>
-              <p>
+            <div className='about-me-col about-me-summary'>
+              <p className='about-me-text'>
                 Hi my name is Jeremy Carmona. I am a front-end developer with a
                 background in UI/UX design, graphic design, and digital design.
                 I graduated from the Digital Design and Development program at
@@ -56,52 +59,47 @@ export default function About() {
                 create projects. In the future, I want to advance my development
                 knowledge and become a full-stack developer.
               </p>
-            </div>
-          </div>
-          <div className='about-me-row flex-skills'>
-            <div className='skills'>
-              <h2>Programming Languages</h2>
-              <div>
-                <p>JavaScript (ES6)</p>
-                <p>HTML</p>
-                <p>SASS/CSS</p>
-                <p>TypeScript</p>
-              </div>
-            </div>
-            <div className='skills'>
-              <h2>Libraries & Frameworks</h2>
-              <div>
-                <p>React</p>
-                <p>Next.js</p>
-                <p>Styled-components</p>
-                <p>Storybook.js</p>
-                <p>React Native</p>
-                <p>Expo</p>
-                <p>MongoDB</p>
-                <p>Socket.IO</p>
-                <p>Redux</p>
-                <p>Electron</p>
-              </div>
-            </div>
-            <div className='skills'>
-              <h2>Tools & Platforms</h2>
-              <div>
-                <p>Vercel</p>
-                <p>Node.js</p>
-                <p>Git</p>
-                <p>Firebase</p>
-                <p>Heroku</p>
-              </div>
-            </div>
-            <div className='skills'>
-              <h2>Design</h2>
-              <div>
-                <p>Figma</p>
-                <p>Illustrator</p>
-                <p>Photoshop</p>
-                <p>After Effects</p>
-                <p>Premiere Pro</p>
-                <p>InDesign</p>
+              <div className='skills-cont'>
+                <div className='about-me-row'>
+                  <div className='skills'>
+                    <h2>Programming Languages</h2>
+                    <div>
+                      <p>JavaScript (ES6)</p>
+                      <p>HTML</p>
+                      <p>SASS/CSS</p>
+                      <p>TypeScript</p>
+                    </div>
+                  </div>
+                  <div className='skills'>
+                    <h2>Libraries & Frameworks</h2>
+                    <div>
+                      <p>React/React Native</p>
+                      <p>Next.js</p>
+                      <p>Redux</p>
+                      <p>MongoDB</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='about-me-row'>
+                  <div className='skills'>
+                    <h2>Tools & Platforms</h2>
+                    <div>
+                      <p>Git</p>
+                      <p>Vercel</p>
+                      <p>Node.js</p>
+                      <p>WordPress</p>
+                    </div>
+                  </div>
+                  <div className='skills'>
+                    <h2>Design</h2>
+                    <div>
+                      <p>Figma</p>
+                      <p>Illustrator</p>
+                      <p>Photoshop</p>
+                      <p>After Effects</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
