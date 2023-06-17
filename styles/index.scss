@@ -8,6 +8,10 @@ a {
   flex-wrap: wrap;
 }
 
+.header {
+  padding: 2rem 0;
+}
+
 .relevant-experience-cont {
   max-width: 200px;
 }
@@ -22,7 +26,7 @@ a {
   display: flex;
   flex: 1;
   flex-direction: row;
-  margin: 0 2rem 0 0;
+  justify-content: space-between;
 }
 
 .polaroid-cont {
@@ -30,9 +34,5 @@ a {
   :hover {
     cursor: pointer;
   }
-  margin: 0 2rem 2rem 0;
-}
-
-.boldedtext {
-  font-weight: 700;
+  margin: 2rem 0;
 }

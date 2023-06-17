@@ -2,8 +2,9 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 
-import OnMePic from '../public/OnMe.png';
-import MojiMealsPic from '../public/MojiMeals.png';
+import OnMePic from '../public/OnMe_MacBook.png';
+import MojiMealsPic from '../public/MojiMeals_MacBook.png';
+import WestPointHotelPic from '../public/WestPointHotel_MacBook.png';
 import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
 
 import Navbar from '../components/global/navbar';
@@ -40,79 +41,60 @@ export default function Home() {
         transition={{ duration: 2 }}
         className='content'
       >
-        <h1>
-          Hi, I{"'"}m Jeremy Carmona and I am a solution-driven Front-end
-          Developer. Welcome to my portfolio 👋
-        </h1>
-        <p>
-          I am a recent graduate of the{' '}
-          <a
-            href='https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/'
-            target='_blank'
-            rel='noreferrer'
+        <div className='header'>
+          <p>Jeremy Carmona</p>
+          <p>Front-end Developer | UI/UX Designer</p>
+          <h1>
+            Hi, I am a solution-driven Front-end Developer based in Vancouver,
+            BC. Welcome to my portfolio 👋
+          </h1>
+        </div>
+        <div className='row projects-cont'>
+          <div
+            className='polaroid-cont'
+            onClick={() => router.push('/projects')}
           >
-            Digital Design and Development
-          </a>{' '}
-          program at the British Columbia Institute of Technology. During my 2
-          years at BCIT, I have learned how to design and develop web and mobile
-          cross-platform applications.
-        </p>
-        <div className='row'>
-          <div className='row relevant-experience-cont'>
-            <div className='relevant-experience'>
-              <h2>Projects</h2>
-              <div>
-                <p className='boldedtext'>MojiMeals</p>
-                <p>Full-stack Developer</p>
-                <p>February 2022-March 2022</p>
-              </div>
-              <div>
-                <p className='boldedtext'>OnMe</p>
-                <p>Front-end Developer</p>
-                <p>September 2021-December 2021</p>
-              </div>
-              <div>
-                <p className='boldedtext'>PS4 Controller Illustration</p>
-                <p>Graphic Designer</p>
-                <p>November 2020</p>
-              </div>
-            </div>
+            <Polaroid
+              image={OnMePic}
+              alt='OnMe Application Screenshots'
+              caption='OnMe'
+            />
           </div>
-          <div className='row projects-cont'>
-            <div
-              className='polaroid-cont'
-              onClick={() => router.push('/projects')}
-            >
-              <Polaroid
-                image={OnMePic}
-                alt='OnMe Application Screenshots'
-                caption='OnMe'
-              />
-            </div>
-            <div
-              className='polaroid-cont'
-              onClick={() => router.push('/projects')}
-            >
-              <Polaroid
-                image={MojiMealsPic}
-                alt='MojiMeals Website screenshot'
-                caption='MojiMeals'
-              />
-            </div>
-            <div
-              className='polaroid-cont'
-              onClick={() => router.push('/projects')}
-            >
-              <Polaroid
-                image={PS4ControllerIllustration}
-                alt='PS4 Controller Illustration screenshot'
-                caption='PS4 Controller Illustration'
-              />
-            </div>
+          <div
+            className='polaroid-cont'
+            onClick={() => router.push('/projects')}
+          >
+            <Polaroid
+              image={MojiMealsPic}
+              alt='MojiMeals Website screenshot'
+              caption='MojiMeals'
+            />
+          </div>
+          <div
+            className='polaroid-cont'
+            onClick={() => router.push('/projects')}
+          >
+            <Polaroid
+              image={PS4ControllerIllustration}
+              alt='PS4 Controller Illustration screenshot'
+              caption='PS4 Controller Illustration'
+            />
+          </div>
+          <div
+            className='polaroid-cont'
+            onClick={() => router.push('/projects')}
+          >
+            <Polaroid
+              image={WestPointHotelPic}
+              alt='West Point Hotel screenshot'
+              caption='West Point Hotel'
+            />
           </div>
         </div>
       </motion.div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
