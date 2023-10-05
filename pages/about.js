@@ -62,7 +62,7 @@ export default function About() {
               <div className='skills-cont'>
                 <div className='about-me-row'>
                   <div className='skills'>
-                    <h2>Programming Languages</h2>
+                    <h3>Programming Languages</h3>
                     <div>
                       <p>JavaScript (ES6)</p>
                       <p>HTML</p>
@@ -71,7 +71,7 @@ export default function About() {
                     </div>
                   </div>
                   <div className='skills'>
-                    <h2>Libraries & Frameworks</h2>
+                    <h3>Libraries & Frameworks</h3>
                     <div>
                       <p>React/React Native</p>
                       <p>Next.js</p>
@@ -82,7 +82,7 @@ export default function About() {
                 </div>
                 <div className='about-me-row'>
                   <div className='skills'>
-                    <h2>Tools & Platforms</h2>
+                    <h3>Tools & Platforms</h3>
                     <div>
                       <p>Git</p>
                       <p>Vercel</p>
@@ -91,7 +91,7 @@ export default function About() {
                     </div>
                   </div>
                   <div className='skills'>
-                    <h2>Design</h2>
+                    <h3>Design</h3>
                     <div>
                       <p>Figma</p>
                       <p>Illustrator</p>

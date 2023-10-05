@@ -55,16 +55,6 @@ export default function Home() {
             onClick={() => router.push('/projects')}
           >
             <Polaroid
-              image={OnMePic}
-              alt='OnMe Application Screenshots'
-              caption='OnMe'
-            />
-          </div>
-          <div
-            className='polaroid-cont'
-            onClick={() => router.push('/projects')}
-          >
-            <Polaroid
               image={MojiMealsPic}
               alt='MojiMeals Website screenshot'
               caption='MojiMeals'
@@ -75,18 +65,28 @@ export default function Home() {
             onClick={() => router.push('/projects')}
           >
             <Polaroid
+              image={OnMePic}
+              alt='OnMe Application screenshots'
+              caption='OnMe'
+            />
+          </div>
+          {/* <div
+            className='polaroid-cont'
+            onClick={() => router.push('/projects')}
+          >
+            <Polaroid
               image={PS4ControllerIllustration}
               alt='PS4 Controller Illustration screenshot'
               caption='PS4 Controller Illustration'
             />
-          </div>
+          </div> */}
           <div
             className='polaroid-cont'
             onClick={() => router.push('/projects')}
           >
             <Polaroid
               image={WestPointHotelPic}
-              alt='West Point Hotel screenshot'
+              alt='West Point Hotel website screenshot'
               caption='West Point Hotel'
             />
           </div>
