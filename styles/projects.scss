@@ -1,8 +1,8 @@
 .projects {
   display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  flex-direction: row;
+  // flex: 1;
+  // flex-wrap: wrap;
+  flex-direction: column;
   margin: 2rem 0;
 }
 
@@ -31,6 +31,11 @@
   flex-wrap: wrap;
 }
 
+.react-icons-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 .projects-info-col {
   display: flex;
   flex-direction: column;
@@ -42,4 +47,15 @@
   color: #0f111a;
   text-decoration: none;
   margin: 10px 0;
+}
+
+.projects-image {
+  display: flex;
+  flex: 1;
+}
+
+.projects-icons {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
