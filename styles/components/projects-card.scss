@@ -1,0 +1,30 @@
+.projects-card-cont {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.projects-card-cont div {
+  flex: 1;
+  margin: 30px 10px;
+}
+
+.read-more-link {
+  cursor: pointer;
+}
+
+.projects-card-image-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-card-cont {
+    flex-direction: column;
+  }
+}

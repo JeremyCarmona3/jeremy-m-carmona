@@ -19,14 +19,15 @@ import {
   SiWordpress,
 } from 'react-icons/si';
 
-import OnMePic from '../public/OnMe_MacBook.png';
+import OnMePic from '../public/OnMe_iPhone13Pro.png';
 import MojiMealsPic from '../public/MojiMeals_MacBook.png';
 import WestPointHotelPic from '../public/WestPointHotel_MacBook.png';
 import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
 
-import Navbar from '../components/global/navbar';
-import Footer from '../components/global/footer';
-import Polaroid from '../components/global/polaroid';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Polaroid from '../components/polaroid';
+import ProjectsCard from '../components/projects-card';
 
 export default function Projects() {
   return (
@@ -58,8 +59,22 @@ export default function Projects() {
       >
         <h1>Projects</h1>
         <div className='projects'>
-          <h2>MojiMeals (Fullstack Developer)</h2>
-          <p>February 2022 - March 2022</p>
+          <ProjectsCard
+            projectName='Moji Meals'
+            summary='MojiMeals is an application that will display a list of emojis from
+            a chosen dataset from Kaggle. When a user clicks an emoji, it will
+            lead to the next page and show the nutrition data of the emoji
+            ingredient or food. It features other pages such as Find Recipe,
+            Settings, and Nutrition Calculator.'
+            projectLink='/mojimeals'
+            projectType='Website Application'
+            projectScope='February 2022 - March 2022'
+            role='Fullstack Developer'
+            toolsUsed='Vercel, React, Next.js, Styled-components, Node.js, MongoDB, Socket.IO'
+            projectImage={MojiMealsPic}
+          />
+          {/* <h2>MojiMeals (Fullstack Developer)</h2>
+          <p>February 2022 - March 2022</p> */}
           {/* <div>
             <Image
               src={MojiMealsPic}
@@ -70,15 +85,15 @@ export default function Projects() {
               alt='Picture of the author'
             />
           </div> */}
-          <h3>Summary</h3>
+          {/* <h3>Summary</h3>
           <p>
             MojiMeals is an application that will display a list of emojis from
             a chosen dataset from Kaggle. When a user clicks an emoji, it will
             lead to the next page and show the nutrition data of the emoji
             ingredient or food. It features other pages such as Find Recipe,
             Settings, and Nutrition Calculator.
-          </p>
-          <div className='projects-info'>
+          </p> */}
+          {/* <div className='projects-info'>
             <div className='projects-image'>
               <Image
                 src={MojiMealsPic}
@@ -89,7 +104,6 @@ export default function Projects() {
                 alt='Picture of the author'
               />
             </div>
-            {/* Vercel React Next.js Styled-components Node.js MongoDB Socket.IO */}
             <div className='projects-icons'>
               <h3>Made with</h3>
               <div className='react-icons-grid'>
@@ -123,10 +137,25 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='projects'>
-          <h2>OnMe (Front-End Developer)</h2>
+          <ProjectsCard
+            projectName='OnMe'
+            summary='OnMe is a cross-platform mobile app dedicated to the lonely
+            residents of Metro Vancouver. It allows the user to order anyone
+            inside the current restaurant a food or drink item based on their
+            table and seat number. It was created by D3 BCIT students as our 3rd
+            semester final project. The proof of concept was presented to 200
+            people, including students, faculty, and industry experts.'
+            projectLink='/onme'
+            projectType='Mobile Application'
+            projectScope='September 2021 - December 2021'
+            role='Front-end Developer'
+            toolsUsed='React Native, Expo, Styled-components, Firebase, MySQL, PHP'
+            projectImage={OnMePic}
+          />
+          {/* <h2>OnMe (Front-End Developer)</h2>
           <p>September 2021 - December 2021</p>
           <h3>Summary</h3>
           <p>
@@ -136,8 +165,8 @@ export default function Projects() {
             table and seat number. It was created by D3 BCIT students as our 3rd
             semester final project. The proof of concept was presented to 200
             people, including students, faculty, and industry experts.
-          </p>
-          <div className='projects-info'>
+          </p> */}
+          {/* <div className='projects-info'>
             <div className='projects-image'>
               <Image
                 src={OnMePic}
@@ -177,10 +206,23 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='projects'>
-          <h2>West Point Hotel (WordPress Developer and UI/UX Designer)</h2>
+          <ProjectsCard
+            projectName='West Point Hotel'
+            summary='West Point Hotel is a hotel booking website created for a mockup
+            client. To simulate the experience of creating a project for a
+            client, our instructor acted as our client and gave us the assets
+            needed for the website.'
+            projectLink='/west-point-hotel'
+            projectType='WordPress Website'
+            projectScope='January 2021 - May 2021'
+            role='WordPress Developer and UI/UX Designer'
+            toolsUsed='WordPress, Figma'
+            projectImage={WestPointHotelPic}
+          />
+          {/* <h2>West Point Hotel (WordPress Developer and UI/UX Designer)</h2>
           <p>January 2021 - May 2021</p>
           <h3>Summary</h3>
           <p>
@@ -188,8 +230,8 @@ export default function Projects() {
             client. To simulate the experience of creating a project for a
             client, our instructor acted as our client and gave us the assets
             needed for the website.
-          </p>
-          <div className='projects-info'>
+          </p> */}
+          {/* <div className='projects-info'>
             <div className='projects-image'>
               <Image
                 src={WestPointHotelPic}
@@ -213,7 +255,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <div className='projects'>
           <h2>PS4 Controller Illustration (November 2020)</h2>

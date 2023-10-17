@@ -19,7 +19,7 @@ export default function Footer() {
       <div className='footer-links-cont'>
         <div className='footer-row'>
           <div className='footer-links copyright-cont'>
-            <p>Copyright © 2022 Jeremy Carmona. All rights reserved.</p>
+            <p>Copyright © 2023 Jeremy Carmona. All rights reserved.</p>
           </div>
           <div className='footer-links'>
             <Link href='/about'>About</Link>

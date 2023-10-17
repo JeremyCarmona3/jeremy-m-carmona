@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 import Avatar from '../public/Avatar.png';
 
-import Navbar from '../components/global/navbar';
-import Footer from '../components/global/footer';
-import Polaroid from '../components/global/polaroid';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Polaroid from '../components/polaroid';
 
 export default function About() {
   return (

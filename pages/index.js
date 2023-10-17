@@ -2,14 +2,14 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 
-import OnMePic from '../public/OnMe_MacBook.png';
+import OnMePic from '../public/OnMe_iPhone13Pro.png';
 import MojiMealsPic from '../public/MojiMeals_MacBook.png';
 import WestPointHotelPic from '../public/WestPointHotel_MacBook.png';
 import PS4ControllerIllustration from '../public/Jeremy_Carmona_Assignment05-01.png';
 
-import Navbar from '../components/global/navbar';
-import Footer from '../components/global/footer';
-import Polaroid from '../components/global/polaroid';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Polaroid from '../components/polaroid';
 
 export default function Home() {
   const router = useRouter();
@@ -42,12 +42,18 @@ export default function Home() {
         className='content'
       >
         <div className='header'>
-          <p>Jeremy Carmona</p>
-          <p>Front-end Developer | UI/UX Designer</p>
-          <h1>
-            Hi, I am a solution-driven Front-end Developer based in Vancouver,
-            BC. Welcome to my portfolio 👋
-          </h1>
+          <h1>Jeremy Carmona</h1>
+          <h3>Front-end Developer | UI/UX Designer</h3>
+          <p>
+            I am a front-end developer with a background in UI/UX design,
+            graphic design, and digital design. I graduated from the Digital
+            Design and Development program at BCIT in 2022. From this program, I
+            learned how to design and develop cross-platform applications. We
+            were taught industry standard practices and how to work
+            collaboratively as a team to create projects. In the future, I want
+            to advance my development knowledge and become a full-stack
+            developer.
+          </p>
         </div>
         <div className='row projects-cont'>
           <div
